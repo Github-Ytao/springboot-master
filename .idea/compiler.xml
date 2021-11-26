@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-jpa" />
+        <module name="springboot-async" />
+        <module name="demo" />
+        <module name="springboot-jdbctemplate-db" />
+        <module name="springboot-tx-jta" />
+        <module name="springboot-elasticjob" />
+        <module name="springboot-thymeleaf" />
+        <module name="springboot-async-pool" />
+        <module name="springboot-upload" />
+        <module name="springboot-jpa-redis" />
+        <module name="springboot-jasypt" />
+        <module name="springboot-api-swagger" />
+        <module name="springboot-mybatis-db" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-api-restful" />
+        <module name="springboot-tx" />
+        <module name="springboot-profile" />
+        <module name="springboot-jdbctemplate" />
+        <module name="springboot-jpa-cache" />
+        <module name="springboot-profile-second" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="springboot-profile -second" target="1.8" />
+      <module name="springboot-zookeeper" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="springboot-api-restful" options="-parameters" />
+      <module name="springboot-api-swagger" options="-parameters" />
+      <module name="springboot-async" options="-parameters" />
+      <module name="springboot-async-pool" options="-parameters" />
+      <module name="springboot-elasticjob" options="-parameters" />
+      <module name="springboot-jasypt" options="-parameters" />
+      <module name="springboot-jdbctemplate" options="-parameters" />
+      <module name="springboot-jdbctemplate-db" options="-parameters" />
+      <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-jpa-cache" options="-parameters" />
+      <module name="springboot-jpa-redis" options="-parameters" />
+      <module name="springboot-master" options="" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatis-db" options="-parameters" />
+      <module name="springboot-profile" options="-parameters" />
+      <module name="springboot-profile -second" options="-parameters" />
+      <module name="springboot-profile-second" options="-parameters" />
+      <module name="springboot-thymeleaf" options="-parameters" />
+      <module name="springboot-tx" options="-parameters" />
+      <module name="springboot-tx-jta" options="-parameters" />
+      <module name="springboot-upload" options="-parameters" />
+      <module name="springboot-zookeeper" options="-parameters" />
+    </option>
+  </component>
+</project>

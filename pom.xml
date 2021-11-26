@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>2.4.1</version>
+      <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
+  <groupId>com.tao</groupId>
+  <artifactId>springboot-master</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+      <module>demo</module>
+      <module>springboot-profile</module>
+      <module>springboot-profile-second</module>
+      <module>springboot-jasypt</module>
+      <module>springboot-api-restful</module>
+      <module>springboot-api-swagger</module>
+      <module>springboot-jdbctemplate</module>
+      <module>springboot-jpa</module>
+      <module>springboot-mybatis</module>
+      <module>springboot-jdbctemplate-db</module>
+      <module>springboot-mybatis-db</module>
+      <module>springboot-tx</module>
+      <module>springboot-tx-jta</module>
+      <module>springboot-jpa-cache</module>
+      <module>springboot-jpa-redis</module>
+      <module>springboot-thymeleaf</module>
+      <module>springboot-upload</module>
+      <module>springboot-elasticjob</module>
+      <module>springboot-async</module>
+      <module>springboot-async-pool</module>
+  </modules>
+</project>

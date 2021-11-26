@@ -1,0 +1,15 @@
+package com.tao.project;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author YangTao
+ * @date 2021-11-14 19:43
+ */
+@SpringBootApplication
+public class ElasticJobApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ElasticJobApplication.class, args);
+    }
+}

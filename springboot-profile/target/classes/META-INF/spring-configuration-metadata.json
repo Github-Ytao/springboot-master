@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "com.tao",
+      "type": "com.tao.project.config.MyConfig",
+      "sourceType": "com.tao.project.config.MyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.tao.username",
+      "type": "java.lang.String",
+      "sourceType": "com.tao.project.config.MyConfig"
+    }
+  ],
+  "hints": []
+}
